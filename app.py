@@ -1,5 +1,12 @@
 from flask import Flask
-from pandas import DataFrame
+
+# how to set up flask
+# 1. pip install flask
+# 2. create app.py
+# 3. set up FLASK_APP environment variable using set FLASK_APP = app.py or using os.environ['FLASK_APP'] = 'app.py'
+# 4. navigate to the project folder in the terminal
+# 5. run the flask app from command line using (1) python app.py  or using (2) flask run
+
 
 app = Flask(__name__)
 
